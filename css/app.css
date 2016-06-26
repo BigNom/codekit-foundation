@@ -7,6 +7,7 @@
  */
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400italic);
 @import url(https://fonts.googleapis.com/css?family=Roboto:500,400);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
 .slide-in-down.mui-enter {
   transition-duration: 500ms;
   transition-timing-function: linear;
@@ -3056,7 +3057,7 @@ body {
 
 .off-canvas {
   position: absolute;
-  background: #2ab2e7;
+  background: white;
   z-index: -1;
   max-height: 100%;
   overflow-y: auto;
@@ -4381,8 +4382,10 @@ table.hover tr:nth-of-type(even):hover {
   animation-delay: 700ms !important; }
 
 .header-wrapper {
-  height: 200px;
+  margin-top: 51px;
+  height: 250px;
   margin-bottom: 30px;
+  z-index: 10;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0e5d7c+0,f2fafe+100 */
   background: #0e5d7c;
   /* Old browsers */
@@ -4400,7 +4403,7 @@ table.hover tr:nth-of-type(even):hover {
   font-size: 48px;
   font-family: 'Libre Baskerville', serif;
   text-align: center;
-  padding-top: 40px; }
+  padding-top: 60px; }
 
 .header-sub-title {
   color: #fefefe;
@@ -4408,10 +4411,101 @@ table.hover tr:nth-of-type(even):hover {
   font-family: 'Libre Baskerville', serif;
   text-align: center; }
 
+.italics {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic; }
+
+.callout-services {
+  background: rgba(0, 0, 0, 0.05);
+  z-index: 10;
+  padding: 0; }
+
+.callout-contact {
+  background: rgba(0, 0, 0, 0.05);
+  z-index: 10;
+  padding: 0 1rem; }
+
 .footer-main {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   background-color: #2ab2e7; }
-  .footer-main p, .footer-main a {
-    color: #fefefe; }
+  .footer-main p {
+    color: #fefefe;
+    margin-bottom: .5rem;
+    font-weight: 500; }
+  .footer-main a {
+    color: #fefefe;
+    margin-left: -15px; }
 
 .footer-bottom {
   background-color: #0e5d7c; }
+  .footer-bottom p {
+    color: #fefefe;
+    margin: .5rem;
+    font-weight: 400;
+    font-size: 1rem; }
+
+.email-group {
+  display: inline; }
+  .email-group .button {
+    background-color: #0e5d7c; }
+
+.img-about {
+  max-width: 50%; }
+
+.is-reveal-open .off-canvas-wrapper {
+  overflow-x: visible; }
+
+.menu a {
+  color: #white;
+  font-weight: 500;
+  border-bottom: rgba(242, 250, 254, 0.25) solid 1px; }
+
+.menu a:hover {
+  color: white; }
+
+.menu-text {
+  color: #fefefe;
+  font-size: 16px;
+  font-family: 'Libre Baskerville', serif; }
+
+.menu .active > a {
+  color: #white;
+  font-weight: 500;
+  background-color: transparent;
+  border-bottom: white solid 3px; }
+
+nav.main-nav {
+  background: #0e5d7c;
+  opacity: 0.9;
+  height: 51px;
+  z-index: 170;
+  margin: 0 auto;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; }
+
+nav.main-nav a {
+  font-family: 'Lato',sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #white;
+  font-weight: 500;
+  text-align: left;
+  border-bottom: rgba(242, 250, 254, 0.25) solid 1px; }
+
+.menu-text {
+  color: #fefefe;
+  font-size: 16px;
+  font-family: 'Libre Baskerville', serif; }
+
+.menu .active > a {
+  color: #white;
+  font-weight: 500;
+  background-color: transparent;
+  border-bottom: white solid 3px; }

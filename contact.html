@@ -8,93 +8,242 @@
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
-    <div class="off-canvas-wrapper">
-      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
-        <div class="off-canvas position-right" id="offCanvas" data-off-canvas data-position="right">
+    <nav class="main-nav">
 
-          <!-- Close button -->
-          <button class="close-button" aria-label="Close menu" type="button" data-close>
-            <span aria-hidden="true">&times;</span>
-          </button>
+    <div class="container">
+      <ul class="menu" data-responsive-menu="accordion">
+        <li class="menu-text">the Ultimate Clean</li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="carpet-cleaning.html">Carpet Cleaning</a></li>
+      <li><a href="tile-cleaning.html">Tile Cleaning</a></li>
+        <li><a href="upholstery-cleaning.html">Upholstery Cleaning</a></li>
+          <li><a href="about.html">About</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="testimonials.html">Testimonials</a></li>
+      <li class="active"><a href="contact.html">Contact Us</a></li>
+      </ul>
+      </div>
+    </nav>
 
-          <!-- Menu -->
-          <ul class="vertical menu">
-            <li><a href="#">Foundation</a></li>
-            <li><a href="#">Dot</a></li>
-            <li><a href="#">ZURB</a></li>
-            <li><a href="#">Com</a></li>
-            <li><a href="#">Slash</a></li>
-            <li><a href="#">Sites</a></li>
-          </ul>
-
+          <div class="header-wrapper">
+        <div class="row column text-center">
+        <h1 class="header-title">the <span>Ultimate</span> Clean</h1>
+          <h3 class="header-sub-title">The World is at Your Feet</h3>
         </div>
+    </div>
 
-        <div class="off-canvas-content" data-off-canvas-content>
-          <!-- Navigation -->
-          <div class="title-bar" data-responsive-toggle="realEstateMenu" data-hide-for="small">
-            <button class="menu-icon" type="button" data-toggle></button>
-            <div class="title-bar-title">Menu</div>
-          </div>
+    <div class="row">
 
-          <div class="top-bar" id="realEstateMenu">
-            <div class="top-bar-left">
-              <ul class="menu" data-responsive-menu="accordion">
-                <li class="menu-text">the Ultimate Clean</li>
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="carpet-cleaning.html">Carpet Cleaning</a></li>
-                <li><a href="tile-cleaning.html">Tile Cleaning</a></li>
-                <li><a href="upholstery-cleaning.html">Upholstery Cleaning</a></li>
+      <div class="medium-8 large-8 columns">
+          <div class="media-object stack-for-small">
+            <div class="media-object-section">
 
-              </ul>
+                <img src= "assets/img/logo-small.png">
+
             </div>
-            <div class="top-bar-right">
-              <ul class="menu">
-                <li><a href="about.html">About</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="testimonials.html">Testimonials</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-              </ul>
+            <div class="media-object-section">
+              <h3>Welcome to the Ultimate Clean, our goal is simple</h3>
+              <p class="subheader">At the Ultimate Clean we only have one goal. To provide our clients
+              with the best possible cleaning service.</p>
             </div>
           </div>
-          <!-- /Navigation -->
-          <button type="button" class="button" data-toggle="offCanvas">Open Menu</button>
-          <div class="row"><div class="callout">
-  <h5>This is a callout.</h5>
-  <p>It has an easy to override visual style, and is appropriately subdued.</p>
-  <a href="#">It's dangerous to go alone, take this.</a>
-</div>
+          </div>
 
-<div class="callout secondary">
-  <h5>This is a secondary callout</h5>
-  <p>It has an easy to override visual style, and is appropriately subdued.</p>
-  <a href="#">It's dangerous to go alone, take this.</a>
-</div>
-<div class="callout">
-<h5>This is a callout.</h5>
-<p>It has an easy to override visual style, and is appropriately subdued.</p>
-<a href="#">It's dangerous to go alone, take this.</a>
-</div>
+      <div class="medium-5 large-3 columns">
+        <div class="callout secondary callout-contact">
+          <form>
+            <div class="row">
+              <div class="small-12 columns">
+                <h3 class="italics">Call us today!</h3>
+                <p>
+                  For a free quote
+                </p>
+                  <a class="large expanded button pulse" href="#">9930 4920</a>
 
-<div class="callout secondary">
-<h5>This is a secondary callout</h5>
-<p>It has an easy to override visual style, and is appropriately subdued.</p>
-<a href="#">It's dangerous to go alone, take this.</a>
-</div>
-<div class="callout">
-<h5>This is a callout.</h5>
-<p>It has an easy to override visual style, and is appropriately subdued.</p>
-<a href="#">It's dangerous to go alone, take this.</a>
-</div>
-
-<div class="callout secondary">
-<h5>This is a secondary callout</h5>
-<p>It has an easy to override visual style, and is appropriately subdued.</p>
-<a href="#">It's dangerous to go alone, take this.</a>
-</div>
-</div>
+              </div>
+              <br>
+              <br>
+              <div class="small-12 columns">
+                <h3 class="italics">Book online</h3>
+                <p>
+                  Save 10% when you book online
+                </p>
+                <a data-open="modalBook" class="large expanded button pulse">Book now</a>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
+
     </div>
+
+    <div class="row column">
+      <hr>
+    </div>
+
+    <div class="row column">
+      <h3 class="text-center">Choose from our Cleaning Services</h3>
+    </div>
+    <br>
+
+    <div class="row" data-equalizer data-equalize-on="medium" id="test-eq">
+  <div class="medium-4 columns">
+    <div class="callout" data-equalizer-watch>
+      <img class="services-image" src="assets/img/img-8.jpg" alt="Space">
+      <p class="lead">Carpet Cleaning</p>
+      <p class="subheader">Do you want the <strong>Ultimate</strong> carpet cleaning in Perth?
+          At the Ultimate Clean we <strong>Gaurentee</strong> you will be impressed.
+            We use the best Carpet Cleaning system.
+          </p>
+          <a class="expanded button hollow float-bottom more-info"href="carpet-cleaning.html">For more information</a>
+    </div>
+  </div>
+  <div class="medium-4 columns">
+    <div class="callout" data-equalizer-watch>
+      <img class="services-image" src="assets/img/img-5.jpg" alt="Space">
+      <p class="lead">Tile Cleaning</p>
+      <p class="subheader">Do you want the <strong>Ultimate</strong> tile cleaning in Perth?
+          At the Ultimate Clean we <strong>Gaurentee</strong> you will be impressed.
+            We use the best Tile Cleaning system.
+          </p>
+          <a class="expanded button hollow float-bottom more-info"href="carpet-cleaning.html">For more information</a>
+    </div>
+  </div>
+  <div class="medium-4 columns">
+    <div class="callout" data-equalizer-watch>
+      <img class="services-image" src="assets/img/img-7.jpg" alt="Space">
+      <p class="lead">upholstery Cleaning</p>
+      <p class="subheader">Do you want the <strong>Ultimate</strong> upholstery cleaning in Perth?
+          At the Ultimate Clean we <strong>Gaurentee</strong> you will be impressed.
+            We use the best Upholstery Cleaning system.
+          </p>
+          <a class="expanded button hollow more-info"href="carpet-cleaning.html">For more information</a>
+    </div>
+  </div>
+</div>
+
+
+    <br>
+    <br>
+
+
+    <!-- Booking Section -->
+                  <div class="reveal" id="modalBook" data-reveal data-abide-error>
+                      <h2 class="text-center">Make a booking</h2>
+                <form data-abide novalidate>
+
+                    <div class="alert callout" style="display:none;" data-abide-error>
+                        <p><i class="fi-alert"></i>There is an error in your form!</p>
+                    </div>
+
+                    <div class="row columns">
+                        <label>Name:
+                            <input type="text" placeholder="Your Name" required>
+                            <span class="form-error">
+                                <i class="fi-alert"></i> Your name is required</span>
+                        </label>
+                        </div>
+                        <div class="row columns">
+                        <label>Email:
+                            <input type="text" placeholder="Your Email" required pattern="email">
+                            <span class="form-error">
+                                <i class="fi-alert"></i> Your email is required</span>
+                        </label>
+                        </div>
+                        <div class="row columns">
+                        <label>Phone Number:
+                            <input type="text" placeholder="Your Phone Number" required pattern="number">
+                            <span class="form-error">
+                                <i class="fi-alert"></i> Your phone number is required</span>
+                        </label>
+                        </div>
+                        <div class="row columns">
+                        <label>Cleaning Service
+                    <select>
+                      <option value="carpet-cleaning">Carpet Cleaning</option>
+                      <option value="tile-cleaning">Tile Cleaning</option>
+                      <option value="upholstery-cleaning">Upholstery Cleaning</option>
+                      <option value="apollo">Other</option>
+                    </select>
+                    </label>
+                  </div>
+                        <div class="row columns">
+                        <label>Message:
+                            <textarea placeholder="Your Message"></textarea>
+                        </label>
+                        </div>
+                        <div class="row columns">
+                            <input type="submit" class="button expanded" value="Submit">
+                        </div>
+                        <button class="close-button" data-close aria-label="Close reveal" type="button">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+
+                </form>
+    </div>
+
+
+    <footer>
+      <div class="row expanded footer-main">
+
+        <div class="small-6 large-3 columns">
+          <p class="lead">the Ultimate Clean</p>
+          <ul class="menu vertical no-bullet">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="about.html">Gallery</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+          </ul>
+        </div>
+
+        <div class="small-6 large-3 columns">
+          <p class="lead">Services</p>
+          <ul class="menu vertical">
+          <li><a>Carpet Cleaning</a></li>
+          <li><a>Tile Cleaning</a></li>
+          <li><a>Upholstery Cleaning</a></li>
+        </ul>
+          </ul>
+        </div>
+
+        <div class="small-6 large-3 columns">
+          <p class="lead">Contact</p>
+          <ul class="menu vertical">
+            <li><a href="#"><i class="fi-social-twitter"></i> Twitter</a></li>
+            <li><a href="#"><i class="fi-social-facebook"></i> Facebook</a></li>
+            <li><a href="#"><i class="fi-social-instagram"></i> Instagram</a></li>
+            <li><a href="#"><i class="fi-social-pinterest"></i> Pinterest</a></li>
+          </ul>
+        </div>
+
+        <div class="small-6 large-3 columns">
+          <label>
+          <p class="lead">Join our email list</p>
+          <form data-abide novalidate>
+
+
+                <div class="email-group">
+                  <input type="text" class="email-list" placeholder="Enter your email address" required pattern="email" maxlength="20">
+                  <input type="submit" class="button expanded" value="Submit" onclick="alert('Hello World!')">
+                  </div>
+                  <span class="form-error">
+                      <i class="fi-alert"></i> Your email is required</span>
+
+              </label>
+
+
+            </form>
+        </div>
+
+      </div>
+      <div class="row expanded footer-bottom">
+
+        <div class="copyright">
+          <p class="text-center">Copyright © 2012 theultimateclean.com.au</p>
+        </div>
+      </div>
+
+    </footer>
 
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>

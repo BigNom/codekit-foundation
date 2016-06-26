@@ -1,0 +1,125 @@
+
+
+.nav-bar { height: 100%; background: #4d4d4d; margin-left: 0; margin-top: 20px; padding: 0; }
+.nav-bar > li { float: left; display: table; position: relative; padding: 0; margin: 0; border: 1px solid #333333; border-right: none; line-height: 30px;
+  -webkit-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset; -moz-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset; box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset; }
+.nav-bar > li:first-child { -webkit-box-shadow: 0 0 0; -moz-box-shadow: 0 0 0; box-shadow: 0 0 0; }
+.nav-bar > li:last-child { border-right: solid 1px #333333; -webkit-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2);
+  -moz-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2); box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2) inset, 1px 0 0 rgba(255, 255, 255, 0.2); }
+.nav-bar > li.active { background: #2ba6cb; border-color: #2284a1; }
+.nav-bar > li.active > a { color: white; cursor: default; }
+.nav-bar > li.active:hover { background: #2ba6cb; cursor: default; }
+.nav-bar > li:hover { background: #333333; }
+.nav-bar > li > a { color: #e6e6e6; }
+.nav-bar > li ul { margin-bottom: 0; }
+
+
+/* Table of Contents
+
+:: Visibility
+:: Alerts
+:: Labels
+:: Tooltips
+:: Panels
+:: Accordion
+:: Side Nav
+:: Sub Nav
+:: Pagination
+:: Breadcrumbs
+:: Lists
+:: Inline/Link Lists
+:: Keystroke Chars
+:: Image Thumbnails
+:: Video
+:: Tables
+:: Microformats
+:: Progress Bars
+:: Pricing Tables
+
+/y Classes ---------------------- */
+/*                                           */
+/* Standard (large) display targeting */
+.show-for-small, .show-for-medium, .show-for-medium-down, .hide-for-large, .hide-for-large-up, .show-for-xlarge, .show-for-print { display: none !important; }
+
+.hide-for-small, .hide-for-medium, .hide-for-medium-down, .show-for-large, .show-for-large-up, .hide-for-xlarge, .hide-for-print { display: inherit !important; }
+
+/* Very large display targeting */
+@media only screen and (min-width: 1441px) { .hide-for-small, .hide-for-medium, .hide-for-medium-down, .hide-for-large, .show-for-large-up, .show-for-xlarge { display: inherit !important; }
+  .show-for-small, .show-for-medium, .show-for-medium-down, .show-for-large, .hide-for-large-up, .hide-for-xlarge { display: none !important; } }
+/* Medium display targeting */
+@media only screen and (max-width: 1279px) and (min-width: 768px) { .hide-for-small, .show-for-medium, .show-for-medium-down, .hide-for-large, .hide-for-large-up, .hide-for-xlarge { display: inherit !important; }
+  .show-for-small, .hide-for-medium, .hide-for-medium-down, .show-for-large, .show-for-large-up, .show-for-xlarge { display: none !important; } }
+/* Small display targeting */
+@media only screen and (max-width: 767px) { .show-for-small, .hide-for-medium, .show-for-medium-down, .hide-for-large, .hide-for-large-up, .hide-for-xlarge { display: inherit !important; }
+  .hide-for-small, .show-for-medium, .hide-for-medium-down, .show-for-large, .show-for-large-up, .show-for-xlarge { display: none !important; } }
+/* Orientation targeting */
+.show-for-landscape, .hide-for-portrait { display: inherit !important; }
+
+.hide-for-landscape, .show-for-portrait { display: none !important; }
+
+@media screen and (orientation: landscape) { .show-for-landscape, .hide-for-portrait { display: inherit !important; }
+  .hide-for-landscape, .show-for-portrait { display: none !important; } }
+@media screen and (orientation: portrait) { .show-for-portrait, .hide-for-landscape { display: inherit !important; }
+  .hide-for-portrait, .show-for-landscape { display: none !important; } }
+/* Touch-enabled device targeting */
+.show-for-touch { display: none !important; }
+
+.hide-for-touch { display: inherit !important; }
+
+.touch .show-for-touch { display: inherit !important; }
+
+.touch .hide-for-touch { display: none !important; }
+
+/* Specific overrides for elements that require something other than display: block */
+table.show-for-xlarge, table.show-for-large, table.hide-for-small, table.hide-for-medium { display: table !important; }
+
+@media only screen and (max-width: 1279px) and (min-width: 768px) { .touch table.hide-for-xlarge, .touch table.hide-for-large, .touch table.hide-for-small, .touch table.show-for-medium { display: table !important; } }
+@media only screen and (max-width: 767px) { table.hide-for-xlarge, table.hide-for-large, table.hide-for-medium, table.show-for-small { display: table !important; } }
+
+/* Covering almost all ----- */
+
+/* Between Medium and Small */
+@media only screen and (max-width: 1279px) and (min-width: 768px) { /* NavBar --- */
+  /*            */
+  .touch .nav-bar li a { font-size: 13px; }
+  .touch .nav-bar li.has-flyout > a.flyout-toggle { padding: 20px !important; }
+  .touch .nav-bar li.has-flyout > a { padding-right: 36px !important; }
+  /* Clearing --- */
+  /*              */
+  .clearing-main-right, .clearing-main-left { height: 100%; width: 40px; top: 0; border: none; }
+  .clearing-main-right:before, .clearing-main-left:before { position: absolute; top: 50%; }
+  .clearing-main-left { left: 0; }
+  .clearing-main-left:before { left: 5px; content: ""; display: block; width: 0; height: 0; border: solid 16px; border-color: transparent white transparent transparent; }
+  .clearing-main-right { height: 100%; right: 0; }
+  .clearing-main-right:before { content: ""; display: block; width: 0; height: 0; border: solid 16px; border-color: transparent transparent transparent white; } }
+/* Small Devices ------------ */
+@media only screen and (max-width: 767px) { /* Global Misc --- */
+  /*                 */
+  .left, .right { float: none; }
+  body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; width: 100%; min-width: 0; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; }
+  /* The Grid --- */
+  /*              */
+
+
+
+  /*             */
+  /* Basic overrides */
+  .button { display: block; }
+  button.button, input[type="submit"].button { width: 100%; padding-left: 0; padding-right: 0; }
+  /* Button Groups */
+  .button-group button.button, .button-group input[type="submit"].button { width: auto; padding: 10px 20px 11px; }
+  .button-group button.button.large, .button-group input[type="submit"].button.large { padding: 15px 30px 16px; }
+  .button-group button.button.medium, .button-group input[type="submit"].button.medium { padding: 10px 20px 11px; }
+  .button-group button.button.small, .button-group input[type="submit"].button.small { padding: 7px 14px 8px; }
+  .button-group button.button.tiny, .button-group input[type="submit"].button.tiny { padding: 5px 10px 6px; }
+  .button-group.even button.button, .button-group.even input[type="submit"].button { width: 100%; padding-left: 0; padding-right: 0; }
+  /* Navbar --- */
+  /*            */
+  .nav-bar { height: auto; }
+  .nav-bar > li { float: none; display: block; border-right: none; }
+  .nav-bar > li > a.main { text-align: left; border-top: 1px solid #ddd; border-right: none; }
+  .nav-bar > li:first-child > a.main { border-top: none; }
+  .nav-bar > li.has-flyout > a.flyout-toggle { position: absolute; right: 0; top: 0; padding: 22px; z-index: 2; display: block; }
+  .nav-bar > li.has-flyout.is-touch > a.flyout-toggle span { content: ""; width: 0; height: 0; display: block; }
+  .nav-bar > li.has-flyout > a.flyout-toggle:hover span { border-top-color: #141414; }
+  .nav-bar.vertical > li.has-flyout > .flyout { left: 0; }

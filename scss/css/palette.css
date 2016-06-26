@@ -1,0 +1,267 @@
+section.palette-town col-sm-1-7 {
+  height: 200px;
+}
+section.palette-town col-sm-1-7 p {
+  font-size: 1.2rem;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+section.palette-town .primary {
+  background-color: #2ab2e7;
+}
+section.palette-town .primary-darkest {
+  background-color: #081c24;
+}
+section.palette-town .primary-darker {
+  background-color: #154d63;
+}
+section.palette-town .primary-dark {
+  background-color: #237ea2;
+}
+section.palette-town .primary-light {
+  background-color: #63d0fb;
+}
+section.palette-town .primary-lighter {
+  background-color: #ade6fd;
+}
+section.palette-town .primary-lightest {
+  background-color: #f8fdff;
+}
+section.palette-town .complement {
+  background-color: #cb6b46;
+}
+section.palette-town .complement-darkest {
+  background-color: #1f120d;
+}
+section.palette-town .complement-darker {
+  background-color: #553123;
+}
+section.palette-town .complement-dark {
+  background-color: #8b503a;
+}
+section.palette-town .complement-light {
+  background-color: #e89576;
+}
+section.palette-town .complement-lighter {
+  background-color: #f3c8b7;
+}
+section.palette-town .complement-lightest {
+  background-color: #fefaf9;
+}
+section.palette-town .triad-1 {
+  background-color: #2ab2e7;
+}
+section.palette-town .triad-1-darkest {
+  background-color: #081c24;
+}
+section.palette-town .triad-1-darker {
+  background-color: #154d63;
+}
+section.palette-town .triad-1-dark {
+  background-color: #237ea2;
+}
+section.palette-town .triad-1-light {
+  background-color: #63d0fb;
+}
+section.palette-town .triad-1-lighter {
+  background-color: #ade6fd;
+}
+section.palette-town .triad-1-lightest {
+  background-color: #f8fdff;
+}
+section.palette-town .triad-2 {
+  background-color: #cb3eba;
+}
+section.palette-town .triad-2-darkest {
+  background-color: #190a17;
+}
+section.palette-town .triad-2-darker {
+  background-color: #50204a;
+}
+section.palette-town .triad-2-dark {
+  background-color: #86367d;
+}
+section.palette-town .triad-2-light {
+  background-color: #e86ed9;
+}
+section.palette-town .triad-2-lighter {
+  background-color: #f2b0ea;
+}
+section.palette-town .triad-2-lightest {
+  background-color: #fdf2fc;
+}
+section.palette-town .triad-3 {
+  background-color: #9edf46;
+}
+section.palette-town .triad-3-darkest {
+  background-color: #22310e;
+}
+section.palette-town .triad-3-darker {
+  background-color: #4c6d1f;
+}
+section.palette-town .triad-3-dark {
+  background-color: #75a830;
+}
+section.palette-town .triad-3-light {
+  background-color: #c2f57d;
+}
+section.palette-town .triad-3-lighter {
+  background-color: #e3fac4;
+}
+section.palette-town .triad-3-lightest {
+  background-color: white;
+}
+section.palette-town .tetrad-1 {
+  background-color: #2ab2e7;
+}
+section.palette-town .tetrad-1-darkest {
+  background-color: #081c24;
+}
+section.palette-town .tetrad-1-darker {
+  background-color: #154d63;
+}
+section.palette-town .tetrad-1-dark {
+  background-color: #237ea2;
+}
+section.palette-town .tetrad-1-light {
+  background-color: #63d0fb;
+}
+section.palette-town .tetrad-1-lighter {
+  background-color: #ade6fd;
+}
+section.palette-town .tetrad-1-lightest {
+  background-color: #f8fdff;
+}
+section.palette-town .tetrad-2 {
+  background-color: #573ee7;
+}
+section.palette-town .tetrad-2-darkest {
+  background-color: #120c34;
+}
+section.palette-town .tetrad-2-darker {
+  background-color: #271a72;
+}
+section.palette-town .tetrad-2-dark {
+  background-color: #3c28b0;
+}
+section.palette-town .tetrad-2-light {
+  background-color: #8b78fa;
+}
+section.palette-town .tetrad-2-lighter {
+  background-color: #cac1fd;
+}
+section.palette-town .tetrad-2-lightest {
+  background-color: white;
+}
+section.palette-town .tetrad-3 {
+  background-color: #cb6b46;
+}
+section.palette-town .tetrad-3-darkest {
+  background-color: #1f120d;
+}
+section.palette-town .tetrad-3-darker {
+  background-color: #553123;
+}
+section.palette-town .tetrad-3-dark {
+  background-color: #8b503a;
+}
+section.palette-town .tetrad-3-light {
+  background-color: #e89576;
+}
+section.palette-town .tetrad-3-lighter {
+  background-color: #f3c8b7;
+}
+section.palette-town .tetrad-3-lightest {
+  background-color: #fefaf9;
+}
+section.palette-town .tetrad-4 {
+  background-color: #4edf46;
+}
+section.palette-town .tetrad-4-darkest {
+  background-color: #10310e;
+}
+section.palette-town .tetrad-4-darker {
+  background-color: #236d1f;
+}
+section.palette-town .tetrad-4-dark {
+  background-color: #36a830;
+}
+section.palette-town .tetrad-4-light {
+  background-color: #83f57d;
+}
+section.palette-town .tetrad-4-lighter {
+  background-color: #c6fac4;
+}
+section.palette-town .tetrad-4-lightest {
+  background-color: white;
+}
+section.palette-town .split-1 {
+  background-color: #cb3e6a;
+}
+section.palette-town .split-1-darkest {
+  background-color: #190a0f;
+}
+section.palette-town .split-1-darker {
+  background-color: #50202f;
+}
+section.palette-town .split-1-dark {
+  background-color: #86364f;
+}
+section.palette-town .split-1-light {
+  background-color: #e86e94;
+}
+section.palette-town .split-1-lighter {
+  background-color: #f2b0c4;
+}
+section.palette-town .split-1-lightest {
+  background-color: #fdf2f5;
+}
+section.palette-town .split-2 {
+  background-color: #cbbc46;
+}
+section.palette-town .split-2-darkest {
+  background-color: #1f1d0d;
+}
+section.palette-town .split-2-darker {
+  background-color: #554f23;
+}
+section.palette-town .split-2-dark {
+  background-color: #8b823a;
+}
+section.palette-town .split-2-light {
+  background-color: #e8db76;
+}
+section.palette-town .split-2-lighter {
+  background-color: #f3ecb7;
+}
+section.palette-town .split-2-lightest {
+  background-color: #fefdf9;
+}
+section.palette-town .shade {
+  background-color: #838b8e;
+}
+section.palette-town .shade-darkest {
+  background-color: #151617;
+}
+section.palette-town .shade-darker {
+  background-color: #393d3f;
+}
+section.palette-town .shade-dark {
+  background-color: #5e6467;
+}
+section.palette-town .shade-light {
+  background-color: #abb0b3;
+}
+section.palette-town .shade-lighter {
+  background-color: #d3d6d7;
+}
+section.palette-town .shade-lightest {
+  background-color: #fbfbfb;
+}
