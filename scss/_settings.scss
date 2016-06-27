@@ -26,7 +26,7 @@
 //  21. Media Object
 //  22. Menu
 //  23. Meter
-//  <div class="off-canvas position-right" id="offCanvasRight" data-off-canvas data-position="right">
+//  // 24. Off-canvas
 //  25. Orbit
 //  26. Pagination
 //  27. Progress Bar
@@ -397,7 +397,7 @@ $meter-fill-bad: $alert-color;
 // --------------
 
 $offcanvas-size: 250px;
-$offcanvas-background: white;
+$offcanvas-background: $light-gray;
 $offcanvas-zindex: -1;
 $offcanvas-transition-length: 0.5s;
 $offcanvas-transition-timing: ease;
@@ -534,7 +534,7 @@ $thumbnail-radius: $global-radius;
 // 34. Title Bar
 // -------------
 
-$titlebar-background: $black;
+$titlebar-background: #0e5d7c;
 $titlebar-color: $white;
 $titlebar-padding: 0.5rem;
 $titlebar-text-font-weight: bold;

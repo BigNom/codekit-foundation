@@ -1,0 +1,28 @@
+.header-wrapper {
+  /*border:1px solid black;*/
+  margin-top:0;
+  height: 300px;
+  margin-bottom: 30px;
+    z-index:10;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0e5d7c+0,f2fafe+100 */
+  background: rgb(14,93,124); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(14,93,124,1) 0%, rgba(242,250,254,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(14,93,124,1) 0%,rgba(242,250,254,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(14,93,124,1) 0%,rgba(242,250,254,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e5d7c', endColorstr='#f2fafe',GradientType=0 ); /* IE6-9 */
+}
+
+.header-title {
+  color: $white;
+  font-size: 48px;
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.header-sub-title {
+    color: $white;
+    font-size: 24px;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
